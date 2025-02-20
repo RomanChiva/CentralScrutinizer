@@ -3,7 +3,7 @@ name: Deploy Hugo Site to GitHub Pages
 on:
   push:
     branches:
-      - master  # Change this to match your default branch
+      - main  # Ensure this is the correct branch for your repo
 
 jobs:
   deploy:
@@ -25,7 +25,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          personal_token: ${{ secrets.GH_PAT }}  # Use the Personal Access Token
+          personal_token: ${{ secrets.GH_PAT }}  # Using Personal Access Token
           publish_dir: ./public
           publish_branch: gh-pages
           keep_files: false
