@@ -3,7 +3,7 @@ name: Deploy Hugo Site to GitHub Pages
 on:
   push:
     branches:
-      - main  # Ensure this is the correct branch for your repo
+      - master  # Ensure this is your correct branch
 
 jobs:
   deploy:
@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          submodules: true  # Ensure submodules (theme) are pulled
 
       - name: Install Hugo
         uses: peaceiris/actions-hugo@v2
@@ -30,3 +32,4 @@ jobs:
           publish_branch: gh-pages
           keep_files: false
           cname: ""
+
