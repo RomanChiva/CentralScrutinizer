@@ -52,4 +52,4 @@ Another related discussion comes from sociologist Erving Goffman, whose work in 
 
 Finally, contemporary discussions on social media and digital identity further contextualize Moeller’s theory. Scholars such as Sherry Turkle (Alone Together, 2011) and Zygmunt Bauman (Liquid Modernity, 2000) have analyzed how digital platforms encourage a fluid, curated self-presentation, where validation comes from likes, comments, and follower counts. Social media intensifies the shift from authenticity to profilicity, as identity becomes increasingly shaped by algorithmic feedback rather than inner conviction. This aligns with Baudrillard’s concept of hyperreality, where signs and representations take precedence over any underlying reality. In this sense, profilicity is not merely a product of social media but an extension of postmodern identity construction, where individuals craft identities as brands within a network of public validation​
 
-That's all folks!
+That's all folks!!!!
