@@ -1,5 +1,7 @@
-baseURL = "http://example.org/"
+baseURL = "https://romanchiva.github.io/CentralScrutinizer/"
 languageCode = "en-us"
 title = "Central Scrutinizer"
 theme= 'archie'
+relativeURLs = true
+canonifyURLs = true
 
