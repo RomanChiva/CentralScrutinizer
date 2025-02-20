@@ -17,9 +17,10 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
+          extended: true
 
       - name: Build the site
-        run: hugo --minify
+        run: hugo --minify --gc --cleanDestinationDir
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
@@ -27,3 +28,5 @@ jobs:
           personal_token: ${{ secrets.GH_PAT }}  # Use the Personal Access Token
           publish_dir: ./public
           publish_branch: gh-pages
+          keep_files: false
+          cname: ""
